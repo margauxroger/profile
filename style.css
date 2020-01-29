@@ -50,11 +50,19 @@ div.card {
   box-shadow: 2px 2px 5px rgb(240,240,240);
 }
 
-ul, li {
-  list-style-type: none;
-  padding-inline-start: initial;
-  padding-inline-end: initial;
+.footer li {
   display: inline;
+  padding-inline-end: initial;
+
+}
+
+ul {
+  padding-inline-start: initial;
+}
+
+li {
+  list-style-type: none;
+
 }
 
 .list {
