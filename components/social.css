@@ -1,0 +1,16 @@
+#linkedin:hover {
+  color:rgb(2, 117, 179);
+  transform: scale(1.5);
+}
+
+#github:hover {
+  color: purple;
+}
+
+.footer a {
+  text-align: center;
+  font-size: 30px;
+  height: 20px;
+  margin: 10px;
+  align-items: center;
+}

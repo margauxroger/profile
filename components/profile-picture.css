@@ -1,0 +1,21 @@
+img {
+  border-radius: 50px;
+  box-shadow: 2px 2px rgb(240,240,240);
+}
+
+.profile-picture {
+  border-radius: 50px;
+  width: 100px;
+  height: 107.98px;
+  background: url("images/linkedin-photo.jpg");
+  text-align: center;
+  margin: auto auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-picture:hover {
+  background: url("images/second-photo.png");
+  background-position: center;
+  background-size: cover;
+}

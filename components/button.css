@@ -1,0 +1,16 @@
+.btn-bold {
+  display: block;
+  width: 130px;
+  padding: 15px 20px;
+  background: rgba(0,0,0,0);
+  margin: 10px auto 10px auto;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: rgba(253, 95, 83, 60);
+  text-align: center;
+  height: 23px;
+}
+
+a.btn-bold:hover {
+  font-weight: bold;
+}

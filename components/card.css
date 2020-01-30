@@ -1,0 +1,43 @@
+.job-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+.job-card {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background-size: cover;
+  opacity: 0.7
+}
+
+.job-card h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px rgba(10,10,10,0.2)
+}
+
+.job-card:hover {
+  opacity: 1;
+}
+
+.card-w-desc:hover  p {
+  display: block;
+}
+
+.card-w-desc {
+  width: 200px;
+}
+
+.card-w-desc p {
+display: none;
+}
+
+
