@@ -1,0 +1,210 @@
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/profile-picture.css");
+@import url("components/social.css");
+
+
+
+body {
+  background: white;
+  font-size: 16px ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  display: inline-block;
+  color: #fd5e53;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  display: none;
+}
+
+div.catchphrase {
+  width: fit-content;
+  margin: auto;
+}
+
+.catchphrase:hover h6 {
+  display: block;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  color: rgba(253, 95, 83, 40);
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50,50,50);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div.card {
+  text-align: center;
+  background: rgb(255,255,255);
+  margin: 30px auto;
+  padding: 1px 0 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 1px rgb(0,0,0,0.1);
+}
+
+.footer li {
+  display: inline;
+  padding-inline-end: initial;
+}
+
+ul {
+  padding-inline-start: initial;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list {
+  height: 50px;
+}
+
+
+
+
+/* Profile picture */
+
+img {
+  border-radius: 50px;
+  box-shadow: 2px 2px rgb(240,240,240);
+}
+
+.profile-picture {
+  border-radius: 50px;
+  width: 100px;
+  height: 107.98px;
+  background: url("../images/linkedin-photo.jpg");
+  text-align: center;
+  margin: auto auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-picture:hover {
+  background: url("../images/second-photo.png");
+  background-position: center;
+  background-size: cover;
+}
+
+/* Job cards */
+.job-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+.job-card {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background-size: cover;
+  opacity: 0.7
+}
+
+.job-card h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px rgba(10,10,10,0.2)
+}
+
+.job-card:hover {
+  opacity: 1;
+}
+
+.card-w-desc:hover  p {
+  display: block;
+}
+
+.card-w-desc {
+  width: 200px;
+}
+
+.card-w-desc p {
+display: none;
+}
+
+/* Button */
+.btn-bold {
+  display: block;
+  width: 130px;
+  padding: 15px 20px;
+  background: rgba(0,0,0,0);
+  margin: 10px auto 10px auto;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: rgba(253, 95, 83, 60);
+  border-width: 1px;
+  text-align: center;
+  height: 23px;
+  box-shadow: 0 0 3px 1px rgb(0,0,0,0.1);
+}
+
+a.btn-bold:hover {
+  font-weight: bold;
+}
+
+/* Social */
+#linkedin:hover {
+  color:rgb(2, 117, 179);
+  transform: scale(1.5);
+}
+
+#github:hover {
+  color: purple;
+}
+
+.footer a {
+  text-align: center;
+  font-size: 30px;
+  height: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+
+
+
+
+
