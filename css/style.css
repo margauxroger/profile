@@ -29,7 +29,7 @@
 body {
   background: white;
   font-size: 16px ;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
 
@@ -37,13 +37,15 @@ h1 {
   display: inline-block;
   color: #fd5e53;
   font-size: 32px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.5px;
   margin-bottom: 10px;
+  font-weight: lighter;
 }
 
 h6 {
   display: none;
+  font-weight: lighter;
 }
 
 div.catchphrase {
@@ -59,8 +61,9 @@ div.catchphrase {
 h2 {
   color: rgba(253, 95, 83, 40);
   font-size: 24px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
+  font-weight: lighter;
 }
 
 a {
@@ -75,7 +78,7 @@ div.card {
   margin: 30px auto;
   padding: 1px 0 20px 0;
   border-radius: 15px;
-  box-shadow: 0 0 10px 1px rgb(0,0,0,0.1);
+  box-shadow: 0 0 10px 1px rgb(0,0,0,0.05);
 }
 
 .footer li {
@@ -114,6 +117,7 @@ img {
   margin: auto auto;
   background-position: center;
   background-size: cover;
+  box-shadow: 0 0 10px 1px rgb(0,0,0,0.2);
 }
 
 .profile-picture:hover {
@@ -162,7 +166,7 @@ img {
 }
 
 .card-w-desc p {
-display: none;
+  display: none;
 }
 
 /* Button */
@@ -182,7 +186,7 @@ display: none;
 }
 
 a.btn-bold:hover {
-  font-weight: bold;
+  font-style: italic;
 }
 
 /* Social */
@@ -204,7 +208,18 @@ a.btn-bold:hover {
 }
 
 
+/* Passions */
+.list-inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
 
+.giphy-embed {
+  display: none;
+}
 
-
+.list-inline li:hover .giphy-embed {
+  display: block;
+}
 
